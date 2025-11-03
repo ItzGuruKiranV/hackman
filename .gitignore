@@ -1,0 +1,76 @@
+# ==========================
+# Python cache and compiled files
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# ==========================
+# Virtual environment
+# ==========================
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+
+# ==========================
+# Model and training artifacts
+# ==========================
+models/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.joblib
+*.sav
+
+# ==========================
+# Data files
+# ==========================
+Data/*.csv
+Data/*.txt
+!Data/corpus.txt
+!Data/test.txt
+
+# ==========================
+# Logs and results
+# ==========================
+*.log
+logs/
+wandb/
+runs/
+results/
+losses.npy
+rewards.npy
+
+# ==========================
+# System files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# VS Code and IDEs
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Jupyter / Temp
+# ==========================
+.ipynb_checkpoints/
+*.tmp
+*.swp
+*.bak
+
+# ==========================
+# Optional: ignore your local config
+# ==========================
+config.json
